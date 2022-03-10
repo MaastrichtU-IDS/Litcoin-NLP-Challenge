@@ -28,7 +28,7 @@ Next, run the notebooks in JupyterLab in the following order:
 **Step 4**-  We fine-tuned BioBERT (HuggingFace's BioBERT https://huggingface.co/dmis-lab/biobert-base-cased-v1.1) for the annotated dataset generated in step 1. 
 
 ----
-**Step 5**-  A BER model (bert-base-uncased) is used to train a model on the generated dataset from step 2 to predict the noverlity colum .
+**Step 5**-  A BER model (bert-base-uncased) is used to train a model on the generated dataset from step 2 to predict the novelty colum .
 
 ----
 **Step 6**-  The predictions from both models (relation and novelty) were generated. We have excluded the predictions which have 'Negative' meaning no relations between given entities.
