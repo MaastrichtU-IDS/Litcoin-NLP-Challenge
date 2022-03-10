@@ -1,8 +1,8 @@
 PART2: Make sure you installed all dependendices with
 
-  pip2 install -r requirements.txt
+  $pip2 install -r requirements.txt
 
-Then run all of the following notebooks in order to complete all steps
+Then run all of the following notebooks in order to complete all steps in JupyterLab:
 
   step1_generate_traindata.ipynb 
   step2_generate_traindata_novelty.ipynb 
