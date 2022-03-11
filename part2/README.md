@@ -1,12 +1,17 @@
 
+## Environment Details
+The models were developed and trained using a Tesla V100-SXM2 with 32 GB Memory
 
+## Installation
 PART2: Make sure you installed all dependendices with
 ```bash
   pip3 install -r requirements.txt
 ```
-Add all challenge files to './data' folder
+## Runining models
 
-Next, run the notebooks in JupyterLab in the following order:
+1- Add all challenge files to './data' folder
+
+2- Next, run the notebooks in JupyterLab in the following order:
 ```bash
   step1_generate_traindata.ipynb 
   step2_generate_traindata_novelty.ipynb 
@@ -36,7 +41,7 @@ Next, run the notebooks in JupyterLab in the following order:
 ----
 
 
-the submission file will be generated in data folder with filename : 
+3- the submission file will be generated in 'data' folder with filename : 
 ```bash
   ./data/submission_xx.csv
 ```
