@@ -3,7 +3,7 @@
 The models were developed and trained using a Tesla V100-SXM2 with 32 GB Memory
 
 ## Installation
-PART2: Make sure you installed all dependendices with
+PART2: Make sure you installed all dependencies with
 ```bash
   pip3 install -r requirements.txt
 ```
